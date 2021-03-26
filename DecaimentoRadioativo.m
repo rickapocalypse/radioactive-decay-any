@@ -18,4 +18,5 @@ for i = 1: n
  N1 = N0.*e.^(-t/tau);
 plot(t,N)
 hold on
+grid on
 plot(t,N1,'r')
