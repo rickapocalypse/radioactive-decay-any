@@ -14,7 +14,6 @@ for i = 1: n
  N(i+1)= N(i) + funcinN(tn,Nn).*dt;
  t(i+1)= t(i) + dt;
  end
- 
  N1 = N0.*e.^(-t/tau);
 plot(t,N)
 hold on
